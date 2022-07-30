@@ -10,4 +10,4 @@ docker run -it --privileged \
        --net=host \
        --env LD_LIBRARY_PATH=/opt/vc/lib:/lib:/usr/lib:/usr/local/lib \
        coral-pose:0.1 \
-       /bin/bash
+       python3 /coral/project-posenet/pose_camera.py
